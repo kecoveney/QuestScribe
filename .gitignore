@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore specific files and directories
+Personal/
+questsproject/
+capstone/
+gunplaproject/
+jojo_stand_manager/venv/
+projects/cosmere/cosmere_rpg_api/accounts/__pycache__/
+projects/cosmere/cosmere_rpg_api/accounts/migrations/__pycache__/
+projects/cosmere/cosmere_rpg_api/cosmere_rpg_api/__pycache__/
+projects/cosmere/cosmere_rpg_api/db.sqlite3
+projects/cosmere_rpg/
+projects/django/deshawn/db.sqlite3
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore VSCode configuration files
+.vscode/
+
+# Ignore other untracked files
+*.lock
+*.pylintrc
